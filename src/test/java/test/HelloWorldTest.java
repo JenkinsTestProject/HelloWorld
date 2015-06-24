@@ -30,7 +30,7 @@ public class HelloWorldTest {
 
     @Test
     public void secondTest() {
-        Assert.assertTrue(true);
+        Assert.assertTrue(false);
     }
 
     @Test
