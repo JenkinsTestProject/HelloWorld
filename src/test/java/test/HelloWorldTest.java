@@ -21,7 +21,8 @@ public class HelloWorldTest {
     @Before
     public void setUp() throws Exception {}
 
-    @Test
+    @Ignore("this test should be ignored")
+	@Test
     public void firstTest() {
         Assert.assertTrue(true);
     }
