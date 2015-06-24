@@ -1,12 +1,5 @@
-package okjsp;
+package test;
 
-/**
- * @Project : okjsp
- * @FileName : user.java
- * @Date : 2014. 8. 13.
- * @Author : SKLEE
- * @Note :
- */
 
 public class User {
 	private String id;
