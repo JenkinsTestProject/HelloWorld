@@ -24,23 +24,57 @@ public class HelloWorldTest {
 
     @Ignore("this test should be ignored")
 	@Test
-    public void firstTest() {
+    public void ignoredTest() {
+        Assert.assertTrue(true);
+    }
+	
+	@Ignore("this test should be ignored")
+	@Test
+    public void ignored1Test() {
+        Assert.assertTrue(true);
+    }
+	
+	@Ignore("this test should be ignored")
+	@Test
+    public void ignored2Test() {
+        Assert.assertTrue(true);
+    }
+	
+	@Ignore("this test should be ignored")
+	@Test
+    public void ignored3Test() {
         Assert.assertTrue(true);
     }
 
     @Test
-    public void secondTest() {
+    public void passed1Test() {
         Assert.assertTrue(true);
+    }
+	@Test
+    public void passed2Test() {
+        Assert.assertTrue(true);
+    }
+	@Test
+    public void passed3Test() {
+        Assert.assertTrue(true);
+    }
+	@Test
+    public void passed4Test() {
+        Assert.assertTrue(true);
+    }
+	@Test
+    public void failedTest() {
+        Assert.assertTrue(false);
     }
 
     @Test
     public void thirdTest() {
-        Assert.assertTrue(true);
+        Assert.assertTrue(false);
     }
 
     @Test
     public void fourthTest() {
-        Assert.assertTrue(true);
+        Assert.assertTrue(false);
     }
 
 }
